@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Search Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Project Explorer</h1>
+      <h2>One Stop Database for Academic Projects</h2>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Projects</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+      <section>
+        <h3>Search Projects By</h3>
+
+        <form>
+          <input
+            type="text"
+            name="searchTerm"
+            placeholder="Project Name, Authors, Abstract, Tags"
+          />
+          <br /><br />
+
+          <label for="searchType">Search By:</label>
+          <select name="searchType">
+            <option value="Name">Name</option>
+            <option value="Abstract">Abstract</option>
+            <option value="Authors">Authors</option>
+            <option value="Tags">Tags</option>
+          </select>
+          <br /><br />
+
+          <input type="button" value="Search" />
+        </form>
+      </section>
+
+      <section>
+        <header>
+          <h1>Search Result</h1>
+        </header>
+
+        <header>
+          <h3>Project 1</h3>
+        </header>
+
+        <div>
+          <ul>
+            <li>Name: Project 1</li>
+            <li>
+              Description: Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Culpa nobis, maiores, ea cumque ad in facilis numquam
+              consequuntur assumenda totam odit aliquam eius molestiae
+              accusantium!
+            </li>
+            <li>Program: Computer Science</li>
+            <li>Authors: John Doe, Jane Doe</li>
+            <li>Tags: #Asphyxia, #GSW</li>
+            <li>Year: 2018</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
