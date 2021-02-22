@@ -21,7 +21,9 @@
 
     <main>
       <section>
-        <h3>Project 1</h3>
+        <header>
+          <h3>Project 1</h3>
+        </header>
 
         <ul>
           <li>Created by : Jane Doe</li>
@@ -31,30 +33,27 @@
       </section>
 
       <section>
-        <h2>Edit Project</h2>
+        <header>
+          <h2>Edit Project</h2>
+        </header>
 
-        <form>
+        <form name="editProject">
           <label>Project Name:</label><br />
-          <input type="text" name="name" />
-          <br /><br />
+          <input type="text" name="name" /><br /><br />
 
           <label>Project Name:</label><br />
-          <textarea name="abstract" cols="30" rows="2"></textarea>
-          <br /><br />
+          <textarea name="abstract" cols="30" rows="2"></textarea><br /><br />
 
           <label>Authors:</label><br />
-          <input type="text" name="authors" />
-          <br /><br />
+          <input type="text" name="authors" /><br /><br />
 
           <label>Tag(s):</label><br />
-          <input type="text" name="tags" />
-          <br /><br />
+          <input type="text" name="tags" /><br /><br />
 
           <label>Upload File</label><br />
-          <input type="file" name="projectFile" />
-          <br /><br />
+          <input type="file" name="projectFile" /><br /><br />
 
-          <input type="button" value="Submit" />
+          <input type="submit" value="Submit" />
         </form>
       </section>
     </main>

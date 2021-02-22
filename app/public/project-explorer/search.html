@@ -21,26 +21,26 @@
 
     <main>
       <section>
-        <h3>Search Projects By</h3>
+        <header>
+          <h3>Search Projects By</h3>
+        </header>
 
-        <form>
+        <form name="searchForm">
           <input
             type="text"
             name="searchTerm"
             placeholder="Project Name, Authors, Abstract, Tags"
-          />
-          <br /><br />
+          /><br /><br />
 
-          <label for="searchType">Search By:</label>
+          <label>Search By:</label>
           <select name="searchType">
             <option value="Name">Name</option>
             <option value="Abstract">Abstract</option>
             <option value="Authors">Authors</option>
-            <option value="Tags">Tags</option>
-          </select>
-          <br /><br />
+            <option value="Tags">Tags</option></select
+          ><br /><br />
 
-          <input type="button" value="Search" />
+          <input type="submit" value="Search" />
         </form>
       </section>
 
